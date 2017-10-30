@@ -5,7 +5,7 @@ import java.sql.Connection;
 public class Test {
 
 	public static void main(String[] args) {
-		MyThead myThead = new MyThead();
+		    MyThead myThead = new MyThead();
 		MyThread2 myThread2 =new MyThread2();
 		Thread t1 = new Thread(myThead);
 		Thread t2 = new Thread(myThead);
