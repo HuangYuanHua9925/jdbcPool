@@ -45,6 +45,9 @@ public class DataSource {
 
 	public Connection getCurrentConnecton() {
 		// 默认线程里面取
+		
+		
+		
 		Connection conn = local.get();
 		if (!isValid(conn)) {
 			conn = getConnection();
